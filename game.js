@@ -45,7 +45,7 @@
             shares[index].push([ogm.STATE, 1, ogm.deepCopy(index)]);
         }
 
-        return ogm.createOgmNextResult(
+        return ogm.createGameNextResult(
             state,
             selections,
             shares,
@@ -87,7 +87,7 @@
             winnerSet.push(this.hand(ogm, state[1][index]))
         }
 
-        return ogm.createOgmNextResult(
+        return ogm.createGameNextResult(
             state,
             null,
             shares,
