@@ -1,5 +1,6 @@
 //GAME_V3
 ({
+    numberOfPlayer: [2, 3, 4, 5],
     initialize: function(ogm, random, rule, mode) {
         //トランプの束を生成
         var card = [];
